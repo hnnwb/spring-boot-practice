@@ -19,7 +19,8 @@
 
 ## 各Module介绍
 
-| Module名称      | Module介绍                          |
-| --------------- | ----------------------------------- |
-| boot-helloWorld | spring-boot的基本项目搭建helloWorld |
-|                 |                                     |
+
+| Module名称                                     | Module介绍                          |
+| ------------------------------------------------ | ------------------------------------- |
+| [practice-helloWorld](./practice-helloworld) | spring-boot的基本项目搭建helloWorld |
+| [practice-properties](./practice-properties)   | spring-boot读取配置文件             |

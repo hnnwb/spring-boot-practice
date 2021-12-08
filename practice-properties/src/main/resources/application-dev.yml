@@ -1,0 +1,11 @@
+application:
+  name: dev环境 @artifactId@
+  version: dev环境 @version@
+  date: dev环境 2021-12-08 15:21:30
+developer:
+  name: dev环境 wbhnn
+  website: dev环境 http://hnnwb.github.com
+  qq: dev环境 666888
+  phone-number: dev环境 177666888
+hnnwb:
+  address: 山东-青岛

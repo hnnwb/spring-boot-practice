@@ -1,0 +1,5 @@
+server:
+  port: 16801
+spring:
+  profiles:
+    active: dev
