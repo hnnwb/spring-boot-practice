@@ -20,6 +20,7 @@
         <module>practice-helloworld</module>
         <module>practice-properties</module>
         <module>practice-actuator</module>
+        <module>practice-admin</module>
     </modules>
     <packaging>pom</packaging>
 

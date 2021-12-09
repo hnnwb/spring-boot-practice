@@ -20,7 +20,10 @@
 ## 各Module介绍
 
 
-| Module名称                                     | Module介绍                          |
-| ------------------------------------------------ | ------------------------------------- |
-| [practice-helloWorld](./practice-helloworld) | spring-boot的基本项目搭建helloWorld |
-| [practice-properties](./practice-properties)   | spring-boot读取配置文件             |
+| Module名称                                       | Module介绍                                                                                                            |
+| -------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
+| [practice-helloWorld](./practice-helloworld)     | spring-boot的基本项目搭建helloWorld                                                                                   |
+| [practice-properties](./practice-properties)     | spring-boot读取配置文件                                                                                               |
+| [practice-actuator](./practice-actuator)         | spring-boot 集成 spring-boot-starter-actuator 监控spring-boot的启动和运行状态                                         |
+| [practice-admin-client](./practice-admin-client) | spring-boot 集成spring-boot-admin 来可视化的监控 spring-boot 程序的运行状态，可以与 actuator 互相搭配使用，客户端示例 |
+| [practice-admin-server](./practice-admin-server) | spring-boot 集成spring-boot-admin 来可视化的监控 spring-boot 程序的运行状态，可以与 actuator 互相搭配使用，服务端示例 |
