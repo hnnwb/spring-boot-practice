@@ -21,6 +21,8 @@
         <module>practice-properties</module>
         <module>practice-actuator</module>
         <module>practice-admin</module>
+        <module>practice-logback</module>
+        <module>practice-log-aop</module>
     </modules>
     <packaging>pom</packaging>
 

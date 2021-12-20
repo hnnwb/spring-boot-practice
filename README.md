@@ -27,3 +27,9 @@
 | [practice-actuator](./practice-actuator)         | spring-boot 集成 spring-boot-starter-actuator 监控spring-boot的启动和运行状态                                         |
 | [practice-admin-client](./practice-admin-client) | spring-boot 集成spring-boot-admin 来可视化的监控 spring-boot 程序的运行状态，可以与 actuator 互相搭配使用，客户端示例 |
 | [practice-admin-server](./practice-admin-server) | spring-boot 集成spring-boot-admin 来可视化的监控 spring-boot 程序的运行状态，可以与 actuator 互相搭配使用，服务端示例 |
+| [practice-logback](./practice-logback)           | spring-boot 集成logback，记录程序运行过程中的日志。                                                                   |
+| [practice-log-aop](./practice-log-aop)           | spring-boot 使用AOP切面的方式记录 web 请求日志                                                                        |
+|                                                  |                                                                                                                       |
+|                                                  |                                                                                                                       |
+|                                                  |                                                                                                                       |
+|                                                  |                                                                                                                       |
