@@ -20,16 +20,19 @@
 ## 各Module介绍
 
 
-| Module名称                                       | Module介绍                                                                                                            |
-| -------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
-| [practice-helloWorld](./practice-helloworld)     | spring-boot的基本项目搭建helloWorld                                                                                   |
-| [practice-properties](./practice-properties)     | spring-boot读取配置文件                                                                                               |
-| [practice-actuator](./practice-actuator)         | spring-boot 集成 spring-boot-starter-actuator 监控spring-boot的启动和运行状态                                         |
-| [practice-admin-client](./practice-admin-client) | spring-boot 集成spring-boot-admin 来可视化的监控 spring-boot 程序的运行状态，可以与 actuator 互相搭配使用，客户端示例 |
-| [practice-admin-server](./practice-admin-server) | spring-boot 集成spring-boot-admin 来可视化的监控 spring-boot 程序的运行状态，可以与 actuator 互相搭配使用，服务端示例 |
-| [practice-logback](./practice-logback)           | spring-boot 集成logback，记录程序运行过程中的日志。                                                                   |
-| [practice-log-aop](./practice-log-aop)           | spring-boot 使用AOP切面的方式记录 web 请求日志                                                                        |
-|                                                  |                                                                                                                       |
-|                                                  |                                                                                                                       |
-|                                                  |                                                                                                                       |
-|                                                  |                                                                                                                       |
+| Module名称                                                 | Module介绍                                                                                                            |
+| ------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------- |
+| [practice-helloWorld](./practice-helloworld)               | spring-boot的基本项目搭建helloWorld                                                                                   |
+| [practice-properties](./practice-properties)               | spring-boot读取配置文件                                                                                               |
+| [practice-actuator](./practice-actuator)                   | spring-boot 集成 spring-boot-starter-actuator 监控spring-boot的启动和运行状态                                         |
+| [practice-admin-client](./practice-admin-client)           | spring-boot 集成spring-boot-admin 来可视化的监控 spring-boot 程序的运行状态，可以与 actuator 互相搭配使用，客户端示例 |
+| [practice-admin-server](./practice-admin-server)           | spring-boot 集成spring-boot-admin 来可视化的监控 spring-boot 程序的运行状态，可以与 actuator 互相搭配使用，服务端示例 |
+| [practice-logback](./practice-logback)                     | spring-boot 集成logback，记录程序运行过程中的日志。                                                                   |
+| [practice-log-aop](./practice-log-aop)                     | spring-boot 使用AOP切面的方式记录 web 请求日志                                                                        |
+| [practice-exception-handler](./practice-exception-handler) | spring-boot 统一异常处理，第一种返回统一的JSON格式，第二种统一跳转到异常页面                                          |
+|                                                            |                                                                                                                       |
+|                                                            |                                                                                                                       |
+|                                                            |                                                                                                                       |
+|                                                            |                                                                                                                       |
+|                                                            |                                                                                                                       |
+|                                                            |                                                                                                                       |

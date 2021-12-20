@@ -23,6 +23,7 @@
         <module>practice-admin</module>
         <module>practice-logback</module>
         <module>practice-log-aop</module>
+        <module>practice-exception-handler</module>
     </modules>
     <packaging>pom</packaging>
 
