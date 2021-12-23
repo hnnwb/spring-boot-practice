@@ -34,7 +34,7 @@
 | [practice-template-thymeleaf](./practice-template-thymeleaf)   | spring-boot 集成Thymeleaf 模板引擎                                                                                    |
 | [practice-template-beetl](./practice-template-beetl)           | spring-boot 集成Beetl 模板引擎                                                                                        |
 | [practice-template-enjoy](./practice-template-enjoy)           | spring-boot 集成Enjoy 模板引擎                                                                                        |
-|                                                                |                                                                                                                       |
+| [practice-jdbcTemplate](./practice-jdbcTemplate)               | spring-boot 集成jdbcTemplate操作数据库，并简易封装通用Dao层                                                           |
 |                                                                |                                                                                                                       |
 |                                                                |                                                                                                                       |
 |                                                                |                                                                                                                       |

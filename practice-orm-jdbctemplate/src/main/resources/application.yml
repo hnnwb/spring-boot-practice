@@ -1,0 +1,27 @@
+server:
+  port: 16813
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/practice?useUnicode=true&characterEncoding=UTF-8&useSSL=false&autoReconnect=true&failOverReadOnly=false&serverTimezone=GMT%2B8
+    username: root
+    password: root
+    type: com.zaxxer.hikari.HikariDataSource  #数据源类型
+    initialization-mode: always
+    continue-on-error: true
+    schema:
+      - "classpath:db/schema.sql"
+    data:
+      - "classpath:db/data.sql"
+    hikari:
+      minimum-idle: 5   #最小空闲连接，默认值10，小于0或大于maximum-pool-size，都会重置为maximum-pool-size
+      connection-test-query: SELECT 1 FROM DUAL  #连接测试查询
+      maximum-pool-size: 20   #最大连接数，小于等于0会被重置为默认值10；大于零小于1会被重置为minimum-idle的值
+      auto-commit: true   #自动提交从池中返回的连接
+      idle-timeout: 30000   #连接允许在池中闲置的最长时间
+      pool-name: SpringBootHikariCP #连接池的用户定义名称，主要出现在日志记录和JMX管理控制台中以识别池和池配置
+      max-lifetime: 60000   #连接最大存活时间.不等于0且小于30秒，会被重置为默认值30分钟.设置应该比mysql设置的超时时间短
+      connection-timeout: 30000
+logging:
+  level:
+    com.practice: debug
