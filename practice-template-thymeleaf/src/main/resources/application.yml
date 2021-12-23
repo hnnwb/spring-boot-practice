@@ -1,0 +1,9 @@
+server:
+  port: 16810
+spring:
+  thymeleaf:
+    mode: HTML
+    encoding: UTF-8
+    servlet:
+      content-type: text/html
+    cache: false
