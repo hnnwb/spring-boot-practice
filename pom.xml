@@ -24,6 +24,10 @@
         <module>practice-logback</module>
         <module>practice-log-aop</module>
         <module>practice-exception-handler</module>
+        <module>practice-template-freemarker</module>
+        <module>practice-template-thymeleaf</module>
+        <module>practice-template-beetl</module>
+        <module>practice-template-enjoy</module>
     </modules>
     <packaging>pom</packaging>
 
