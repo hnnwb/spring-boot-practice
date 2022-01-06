@@ -28,6 +28,8 @@
         <module>practice-template-thymeleaf</module>
         <module>practice-template-beetl</module>
         <module>practice-template-enjoy</module>
+        <module>practice-orm-jdbctemplate</module>
+        <module>practice-orm-jpa</module>
     </modules>
     <packaging>pom</packaging>
 
