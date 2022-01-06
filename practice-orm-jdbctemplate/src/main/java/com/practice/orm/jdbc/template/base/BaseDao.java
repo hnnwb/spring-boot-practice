@@ -1,7 +1,9 @@
 package com.practice.orm.jdbc.template.base;
 
+import cn.hutool.core.bean.BeanUtil;
 import cn.hutool.core.collection.CollUtil;
 import cn.hutool.core.lang.Dict;
+import cn.hutool.core.util.ArrayUtil;
 import cn.hutool.core.util.ObjectUtil;
 import cn.hutool.core.util.ReflectUtil;
 import cn.hutool.core.util.StrUtil;
@@ -12,11 +14,15 @@ import com.practice.orm.jdbc.template.annotation.Pk;
 import com.practice.orm.jdbc.template.annotation.Table;
 import com.practice.orm.jdbc.template.constant.Const;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.jdbc.core.BeanPropertyRowMapper;
 import org.springframework.jdbc.core.JdbcTemplate;
+import org.springframework.jdbc.core.RowMapper;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.ParameterizedType;
+import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -48,7 +54,7 @@ public class BaseDao<T,P> {
 
         List<Field> field = getField(t, ignoreNull);
 
-        List<String> columList = getColums(field);
+        List<String> columList = getColumns(field);
 
         String colums = StrUtil.join(Const.SEPARATOR_COMMA, columList);
 
@@ -77,6 +83,72 @@ public class BaseDao<T,P> {
         log.debug("[执行SQL]SQL:{}",sql);
         log.debug("[执行SQL]参数：{}",JSONUtil.toJsonStr(pk));
         return jdbcTemplate.update(sql,pk);
+    }
+
+    /**
+     * 通用根据主键更新，自增列需要添加 @Pk注释
+     * @param t 对象
+     * @param pk 主键
+     * @param ignoreNull 是否忽略null
+     * @return 操作的行数
+     */
+    protected Integer updateById(T t,P pk,Boolean ignoreNull){
+        String tableName = getTableName(t);
+        List<Field> fieldList = getField(t, ignoreNull);
+        List<String> columList = getColumns(fieldList);
+
+        List<String> columns = columList.stream().map(s -> StrUtil.appendIfMissing(s, "=?")).collect(Collectors.toList());
+        String params = StrUtil.join(Const.SEPARATOR_COMMA, columns);
+
+        //构造值
+        List<Object> valueList = fieldList.stream().map(field -> ReflectUtil.getFieldValue(t, field)).collect(Collectors.toList());
+        valueList.add(pk);
+
+        Object[] values = ArrayUtil.toArray(valueList, Object.class);
+
+        String sql = StrUtil.format("UPDATE {table} SET {params} where id = ?", Dict.create().set("table", tableName).set("params", params));
+        log.debug("[执行SQL]SQL：{}",sql);
+        log.debug("[执行SQL]参数：{}",JSONUtil.toJsonStr(values));
+        return jdbcTemplate.update(sql,values);
+    }
+
+    /**
+     * 通用根据主键查询单条记录
+     * @param pk 主键
+     * @return 单条记录
+     */
+    protected T findOneById(P pk){
+        String tableName = getTableName();
+        String sql = StrUtil.format("SELECT * FROM {table} where id = ?", Dict.create().set("table", tableName));
+        RowMapper<T> rowMapper = new BeanPropertyRowMapper<>(clazz);
+        log.debug("[执行SQL]SQL:{}",sql);
+        log.debug("[执行SQL]参数：{}",JSONUtil.toJsonStr(pk));
+        return jdbcTemplate.queryForObject(sql,new Object[]{pk},rowMapper);
+    }
+
+    /**
+     * 根据对象查询
+     * @param t
+     * @return
+     */
+    protected List<T> findByObj(T t){
+        String tableName = getTableName(t);
+        List<Field> fieldList = getField(t, true);
+        List<String> columnList = getColumns(fieldList);
+        List<String> columns = columnList.stream().map(s -> "and" + s + "=?").collect(Collectors.toList());
+
+        String where = StrUtil.join("", columns);
+        //构造值
+        Object[] values = fieldList.stream().map(field -> ReflectUtil.getFieldValue(t, field)).toArray();
+
+        String sql = StrUtil.format("SELECT * FROM {table} where 1=1 {where}",
+                Dict.create().set("table", tableName).set("where", StrUtil.isBlank(where) ? "" : where));
+        log.debug("[执行的SQL]SQL:{}",sql);
+        log.debug("[执行SQL]参数：{}",JSONUtil.toJsonStr(values));
+        List<Map<String, Object>> maps = jdbcTemplate.queryForList(sql, values);
+        ArrayList<T> res = CollUtil.newArrayList();
+        maps.forEach(map -> res.add(BeanUtil.fillBeanWithMap(map,ReflectUtil.newInstance(clazz),true,false)));
+        return res;
     }
 
     /**
@@ -112,7 +184,7 @@ public class BaseDao<T,P> {
      * @param fieldList 字段列表
      * @return 列信息列表
      */
-    private List<String> getColums(List<Field> fieldList){
+    private List<String> getColumns(List<Field> fieldList){
         //构造列
         List<String> columnList = CollUtil.newArrayList();
         for (Field field : fieldList) {
