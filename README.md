@@ -36,7 +36,7 @@
 | [practice-template-enjoy](./practice-template-enjoy)           | spring-boot 集成Enjoy 模板引擎                                                                                        |
 | [practice-orm-jdbcTemplate](./practice-orm-jdbcTemplate)       | spring-boot 集成jdbcTemplate操作数据库，并简易封装通用Dao层                                                           |
 | [practice-orm-jpa](./practice-orm-jpa)                         | spring-boot 集成spring-boot-starter-data-jpa操作数据库                                                                |
-|                                                                |                                                                                                                       |
+| [practice-orm-mybatis](./practice-orm-mybatis)                 | spring-boot 集成mybatis，使用mybatis-spring-boot-starter集成                                                          |
 |                                                                |                                                                                                                       |
 |                                                                |                                                                                                                       |
 |                                                                |                                                                                                                       |
