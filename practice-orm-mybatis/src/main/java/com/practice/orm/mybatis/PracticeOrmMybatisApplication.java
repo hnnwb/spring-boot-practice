@@ -10,6 +10,7 @@ public class PracticeOrmMybatisApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(PracticeOrmMybatisApplication.class, args);
+        System.out.println("测试推送！！！！！！！！！");
     }
 
 }
