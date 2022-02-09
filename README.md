@@ -12,8 +12,8 @@
 
 ##运行方式
 1.`git clone https://github.com/hnnwb/spring-boot-practice.git`
-2. 使用 IDEA 打开 clone 下来的项目
-3. 在 IDEA 中 Maven Projects 的面板导入项目根目录下 的 `pom.xml` 文件
+2. 使用开发工具打开 clone 下来的项目
+3. 在开发工具中 Maven Projects 的面板导入项目根目录下 的 `pom.xml` 文件
 4. 找到各个 Module 的 Application 类就可以运行各个 practice 了
 
 ## 各Module介绍
