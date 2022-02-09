@@ -40,6 +40,6 @@
 | [practice-orm-mybatis-mapper-page](./practice-orm-mybatis-mapper-page) | spring-boot 集成通用Mapper和PageHelper,使用mapper-spring-boot-starter和pageHelper-spring-boot-starter集成             |
 | [practice-orm-mybatis-plus](./practice-orm-mybatis-plus)               | spring-boot 集成mybatis-plus,使用mybatis-plus-boot-starter集成，集成BaseMapper/BaseService/ActiveRecord操作数据库     |
 | [practice-orm-beetlsql](./practice-orm-beetlsql)                       | spring-boot 集成beetl-sql,使用beetl-framework-starter集成                                                             |
-| 测试推送                                                               |                                                                                                                       |
+|                                                                        |                                                                                                                       |
 |                                                                        |                                                                                                                       |
 |                                                                        |                                                                                                                       |

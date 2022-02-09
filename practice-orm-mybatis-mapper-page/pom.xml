@@ -18,8 +18,8 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
-        <mybatis.mapper.version>2.0.4</mybatis.mapper.version>
-        <mybatis.pagehelper.version>1.2.9</mybatis.pagehelper.version>
+        <mybatis.mapper.version>2.1.5</mybatis.mapper.version>
+        <mybatis.pagehelper.version>1.4.1</mybatis.pagehelper.version>
     </properties>
 
     <dependencies>
@@ -68,11 +68,11 @@
             <artifactId>mysql-connector-java</artifactId>
         </dependency>
 
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <scope>test</scope>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>junit</groupId>-->
+<!--            <artifactId>junit</artifactId>-->
+<!--            <scope>test</scope>-->
+<!--        </dependency>-->
     </dependencies>
 
     <build>
