@@ -8,7 +8,6 @@
 
 - JDK17
 - Maven3.6+
-- IntelliJ IDEA 2021.1.3+
 - Mysql 5.8+
 
 ##运行方式
