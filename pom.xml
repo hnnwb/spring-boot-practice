@@ -30,6 +30,7 @@
         <module>practice-template-enjoy</module>
         <module>practice-orm-jdbctemplate</module>
         <module>practice-orm-jpa</module>
+        <module>practice-orm-mybatis-plus</module>
     </modules>
     <packaging>pom</packaging>
 
