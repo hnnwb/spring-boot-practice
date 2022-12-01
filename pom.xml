@@ -31,6 +31,7 @@
         <module>practice-orm-jdbctemplate</module>
         <module>practice-orm-jpa</module>
         <module>practice-orm-mybatis-plus</module>
+        <module>practice-orm-beetlsql</module>
     </modules>
     <packaging>pom</packaging>
 
