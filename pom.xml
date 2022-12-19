@@ -34,6 +34,7 @@
         <module>practice-orm-beetlsql</module>
         <module>practice-demo-upload</module>
         <module>practice-cache-redis</module>
+        <module>practice-cache-ehcache</module>
     </modules>
     <packaging>pom</packaging>
 

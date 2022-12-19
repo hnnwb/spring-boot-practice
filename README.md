@@ -41,7 +41,7 @@
 | [practice-orm-beetlsql](./practice-orm-beetlsql)                       | spring-boot 集成beetl-sql,使用beetl-framework-starter集成                                                             |
 | [practice-demo-upload](./practice-demo-upload)                         | spring-boot 文件上传示例，包含本地文件上传以及七牛云文件上传                                                          |
 | [practice-cache-redis](./practice-cache-redis)                         | spring-boot 整合 redis，操作redis中的数据，并使用redis缓存数据                                                        |
-|                                                                        |                                                                                                                       |
+| [practice-cache-ehcache](./practice-cache-ehcache)                     | spring-boot 整合 ehcache，使用 ehcache 缓存数据                                                                       |
 |                                                                        |                                                                                                                       |
 |                                                                        |                                                                                                                       |
 |                                                                        |                                                                                                                       |
