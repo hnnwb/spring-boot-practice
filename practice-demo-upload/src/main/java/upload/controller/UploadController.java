@@ -66,7 +66,7 @@ public class UploadController {
         String fileName = file.getOriginalFilename();
         String rawFileName = StrUtil.subBefore(fileName, ".", true);
         String fileType = StrUtil.subAfter(fileName, ".", true);
-        String localFilePath = StrUtil.appendIfMissing(fileTempPath, "/") + rawFileName + "-" + DateUtil.current(false) + "." + fileType;
+        String localFilePath = StrUtil.appendIfMissing(fileTempPath, "/") + rawFileName + "-" + DateUtil.current() + "." + fileType;
         try {
             file.transferTo(new File(localFilePath));
             Response response = qiNiuService.uploadFile(new File(localFilePath));
