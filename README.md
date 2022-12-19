@@ -20,7 +20,7 @@
 
 
 | Module名称                                                             | Module介绍                                                                                                            |
-| ------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------- |
+| ---------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
 | [practice-helloWorld](./practice-helloworld)                           | spring-boot的基本项目搭建helloWorld                                                                                   |
 | [practice-properties](./practice-properties)                           | spring-boot读取配置文件                                                                                               |
 | [practice-actuator](./practice-actuator)                               | spring-boot 集成 spring-boot-starter-actuator 监控spring-boot的启动和运行状态                                         |
@@ -39,6 +39,6 @@
 | [practice-orm-mybatis-mapper-page](./practice-orm-mybatis-mapper-page) | spring-boot 集成通用Mapper和PageHelper,使用mapper-spring-boot-starter和pageHelper-spring-boot-starter集成             |
 | [practice-orm-mybatis-plus](./practice-orm-mybatis-plus)               | spring-boot 集成mybatis-plus,使用mybatis-plus-boot-starter集成，集成BaseMapper/BaseService/ActiveRecord操作数据库     |
 | [practice-orm-beetlsql](./practice-orm-beetlsql)                       | spring-boot 集成beetl-sql,使用beetl-framework-starter集成                                                             |
-|                                                                        |                                                                                                                       |
+| [practice-demo-upload](./practice-demo-upload)                         | spring-boot 文件上传示例，包含本地文件上传以及七牛云文件上传                                                          |
 |                                                                        |                                                                                                                       |
 |                                                                        |                                                                                                                       |
