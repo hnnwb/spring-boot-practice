@@ -40,5 +40,8 @@
 | [practice-orm-mybatis-plus](./practice-orm-mybatis-plus)               | spring-boot 集成mybatis-plus,使用mybatis-plus-boot-starter集成，集成BaseMapper/BaseService/ActiveRecord操作数据库     |
 | [practice-orm-beetlsql](./practice-orm-beetlsql)                       | spring-boot 集成beetl-sql,使用beetl-framework-starter集成                                                             |
 | [practice-demo-upload](./practice-demo-upload)                         | spring-boot 文件上传示例，包含本地文件上传以及七牛云文件上传                                                          |
+| [practice-cache-redis](./practice-cache-redis)                         | spring-boot 整合 redis，操作redis中的数据，并使用redis缓存数据                                                        |
+|                                                                        |                                                                                                                       |
+|                                                                        |                                                                                                                       |
 |                                                                        |                                                                                                                       |
 |                                                                        |                                                                                                                       |

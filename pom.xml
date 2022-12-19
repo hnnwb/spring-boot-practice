@@ -33,6 +33,7 @@
         <module>practice-orm-mybatis-plus</module>
         <module>practice-orm-beetlsql</module>
         <module>practice-demo-upload</module>
+        <module>practice-cache-redis</module>
     </modules>
     <packaging>pom</packaging>
 
