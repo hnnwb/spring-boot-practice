@@ -18,9 +18,8 @@
 
 ## 各Module介绍
 
-
-| Module名称                                                             | Module介绍                                                                                                            |
-| ---------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
+| Module名称                                                          | Module介绍                                                                                                            |
+| ------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
 | [practice-helloWorld](./practice-helloworld)                           | spring-boot的基本项目搭建helloWorld                                                                                   |
 | [practice-properties](./practice-properties)                           | spring-boot读取配置文件                                                                                               |
 | [practice-actuator](./practice-actuator)                               | spring-boot 集成 spring-boot-starter-actuator 监控spring-boot的启动和运行状态                                         |
@@ -42,6 +41,6 @@
 | [practice-demo-upload](./practice-demo-upload)                         | spring-boot 文件上传示例，包含本地文件上传以及七牛云文件上传                                                          |
 | [practice-cache-redis](./practice-cache-redis)                         | spring-boot 整合 redis，操作redis中的数据，并使用redis缓存数据                                                        |
 | [practice-cache-ehcache](./practice-cache-ehcache)                     | spring-boot 整合 ehcache，使用 ehcache 缓存数据                                                                       |
-|                                                                        |                                                                                                                       |
-|                                                                        |                                                                                                                       |
-|                                                                        |                                                                                                                       |
+| [practice-email](./practice-email)                                     | spring-boot 整合 email，包括发送简单文本邮件、HTML邮件（包括模板HTML邮件）、附件邮件、静态资源邮件                    |
+|                                                                     |                                                                                                                       |
+|                                                                     |                                                                                                                       |

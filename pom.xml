@@ -35,6 +35,7 @@
         <module>practice-demo-upload</module>
         <module>practice-cache-redis</module>
         <module>practice-cache-ehcache</module>
+        <module>practice-email</module>
     </modules>
     <packaging>pom</packaging>
 
