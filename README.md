@@ -42,5 +42,5 @@
 | [practice-cache-redis](./practice-cache-redis)                         | spring-boot 整合 redis，操作redis中的数据，并使用redis缓存数据                                                        |
 | [practice-cache-ehcache](./practice-cache-ehcache)                     | spring-boot 整合 ehcache，使用 ehcache 缓存数据                                                                       |
 | [practice-email](./practice-email)                                     | spring-boot 整合 email，包括发送简单文本邮件、HTML邮件（包括模板HTML邮件）、附件邮件、静态资源邮件                    |
-|                                                                     |                                                                                                                       |
+| [practice-task](./practice-task)                                       | spring-boot 快速实现定时任务                                                                                          |
 |                                                                     |                                                                                                                       |

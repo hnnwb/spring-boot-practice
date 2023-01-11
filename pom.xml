@@ -36,6 +36,7 @@
         <module>practice-cache-redis</module>
         <module>practice-cache-ehcache</module>
         <module>practice-email</module>
+        <module>practice-task</module>
     </modules>
     <packaging>pom</packaging>
 
