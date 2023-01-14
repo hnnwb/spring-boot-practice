@@ -38,6 +38,7 @@
         <module>practice-email</module>
         <module>practice-task</module>
         <module>practice-task-quartz</module>
+        <module>practice-task-xxl-job</module>
     </modules>
     <packaging>pom</packaging>
 
