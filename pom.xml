@@ -37,6 +37,7 @@
         <module>practice-cache-ehcache</module>
         <module>practice-email</module>
         <module>practice-task</module>
+        <module>practice-task-quartz</module>
     </modules>
     <packaging>pom</packaging>
 
