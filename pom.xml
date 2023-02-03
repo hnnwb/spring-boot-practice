@@ -40,6 +40,7 @@
         <module>practice-task-quartz</module>
         <module>practice-task-xxl-job</module>
         <module>practice-swagger</module>
+        <module>practice-swagger-beauty</module>
     </modules>
     <packaging>pom</packaging>
 

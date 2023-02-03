@@ -1,13 +1,16 @@
 package com.practice;
 
+import org.springframework.boot.SpringApplication;
+
 /**
  * Hello world!
  *
+ * @author wb
  */
 public class PracticeSwaggerApplication
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+       SpringApplication.run(PracticeSwaggerApplication.class, args);
     }
 }
