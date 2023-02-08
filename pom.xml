@@ -41,6 +41,7 @@
         <module>practice-task-xxl-job</module>
         <module>practice-swagger</module>
         <module>practice-swagger-beauty</module>
+        <module>practice-rbac-security</module>
     </modules>
     <packaging>pom</packaging>
 
