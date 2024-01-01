@@ -19,8 +19,8 @@
 ## 各Module介绍
 
 
-| Module名称                                                             | Module介绍                                                                                                                                                                                                                               |
-| ---------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Module名称                                                               | Module介绍                                                                                                                                                                                                                               |
+|------------------------------------------------------------------------| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [practice-helloWorld](./practice-helloworld)                           | spring-boot的基本项目搭建helloWorld                                                                                                                                                                                                      |
 | [practice-properties](./practice-properties)                           | spring-boot读取配置文件                                                                                                                                                                                                                  |
 | [practice-actuator](./practice-actuator)                               | spring-boot 集成 spring-boot-starter-actuator 监控spring-boot的启动和运行状态                                                                                                                                                            |
@@ -49,3 +49,5 @@
 | [practice-swagger](./practice-swagger)                                 | spring-boot 集成原生的`swagger` 用于统一管理、测试 API 接口                                                                                                                                                                              |
 | [practice-swagger-beauty](./practice-swagger-beauty)                   | spring-boot 集成第三方`swagger` [swagger-bootstrap-ui](https://github.com/xiaoymin/Swagger-Bootstrap-UI) 美化API文档样式，用于统一管理、测试 API 接口                                                                                    |
 | [practice-rbac-security](./practice-rbac-security)                     | spring-boot 集成 spring security 完成基于RBAC权限模型的权限管理，支持自定义过滤请求，动态权限认证，使用 JWT 安全认证，支持在线人数统计，手动踢出用户等操作                                                                               |
+| [practice-rbac-shiro](./practice-rbac-shiro)                           | spring-boot 集成 shiro 实现权限管理<br /> <span style="color:pink;">待完成</span> |
+
