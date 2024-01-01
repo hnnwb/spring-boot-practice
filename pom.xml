@@ -43,6 +43,7 @@
         <module>practice-swagger-beauty</module>
         <module>practice-rbac-security</module>
         <module>practice-rbac-shiro</module>
+        <module>practice-session</module>
     </modules>
     <packaging>pom</packaging>
 

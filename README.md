@@ -50,4 +50,5 @@
 | [practice-swagger-beauty](./practice-swagger-beauty)                   | spring-boot 集成第三方`swagger` [swagger-bootstrap-ui](https://github.com/xiaoymin/Swagger-Bootstrap-UI) 美化API文档样式，用于统一管理、测试 API 接口                                                                                    |
 | [practice-rbac-security](./practice-rbac-security)                     | spring-boot 集成 spring security 完成基于RBAC权限模型的权限管理，支持自定义过滤请求，动态权限认证，使用 JWT 安全认证，支持在线人数统计，手动踢出用户等操作                                                                               |
 | [practice-rbac-shiro](./practice-rbac-shiro)                           | spring-boot 集成 shiro 实现权限管理<br /> <span style="color:pink;">待完成</span> |
+| [practice-session](./practice-session)                                 | spring-boot 集成 Spring Session 实现Session共享、重启程序Session不失效 |
 
