@@ -44,6 +44,7 @@
         <module>practice-rbac-security</module>
         <module>practice-rbac-shiro</module>
         <module>practice-session</module>
+        <module>practice-oauth</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -58,11 +59,19 @@
         <mysql.version>8.0.21</mysql.version>
         <hutool.version>5.7.16</hutool.version>
         <guava.version>29.0-jre</guava.version>
+        <spring.boot.version>2.1.0.RELEASE</spring.boot.version>
     </properties>
 
 
     <dependencyManagement>
         <dependencies>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-dependencies</artifactId>
+                <version>${spring.boot.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
             <dependency>
                 <groupId>mysql</groupId>
                 <artifactId>mysql-connector-java</artifactId>
