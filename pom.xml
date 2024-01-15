@@ -45,6 +45,7 @@
         <module>practice-rbac-shiro</module>
         <module>practice-session</module>
         <module>practice-oauth</module>
+        <module>practice-social</module>
     </modules>
     <packaging>pom</packaging>
 
