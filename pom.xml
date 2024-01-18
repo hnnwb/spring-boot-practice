@@ -46,6 +46,7 @@
         <module>practice-session</module>
         <module>practice-oauth</module>
         <module>practice-social</module>
+        <module>practice-zookeeper</module>
     </modules>
     <packaging>pom</packaging>
 
