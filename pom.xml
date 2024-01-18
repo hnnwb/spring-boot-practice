@@ -47,6 +47,7 @@
         <module>practice-oauth</module>
         <module>practice-social</module>
         <module>practice-zookeeper</module>
+        <module>practice-mq-rabbitmq</module>
     </modules>
     <packaging>pom</packaging>
 
