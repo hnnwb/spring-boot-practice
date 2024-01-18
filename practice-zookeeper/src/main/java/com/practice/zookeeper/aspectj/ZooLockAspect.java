@@ -21,6 +21,7 @@ import java.lang.reflect.Method;
 
 /**
  * 使用 aop 切面记录请求日志信息
+ * @author wb
  */
 @Aspect
 @Component
