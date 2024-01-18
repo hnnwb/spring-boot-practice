@@ -16,6 +16,7 @@ import org.aspectj.lang.reflect.MethodSignature;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
+import java.lang.annotation.Annotation;
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 
@@ -41,7 +42,7 @@ public class ZooLockAspect {
     /**
      * 切入点
      */
-    @Pointcut("@annotation(com.xkcoding.zookeeper.annotation.ZooLock)")
+    @Pointcut("@annotation(com.practice.zookeeper.annotation.ZooLock)")
     public void doLock() {
 
     }
