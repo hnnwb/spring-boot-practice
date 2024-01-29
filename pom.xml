@@ -48,6 +48,7 @@
         <module>practice-social</module>
         <module>practice-zookeeper</module>
         <module>practice-mq-rabbitmq</module>
+        <module>practice-mq-kafka</module>
     </modules>
     <packaging>pom</packaging>
 
