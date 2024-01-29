@@ -50,6 +50,7 @@
         <module>practice-mq-rabbitmq</module>
         <module>practice-mq-kafka</module>
         <module>practice-websocket</module>
+        <module>practice-websocket-socketio</module>
     </modules>
     <packaging>pom</packaging>
 
