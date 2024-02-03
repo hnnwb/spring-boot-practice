@@ -2,7 +2,7 @@
 
 ## 项目简介
 
-`spring-boot-practice` 是一个围绕springBoot相关的学习与实战项目,计划根据springBoot相关的框架进行实战练习，目前已完成 `1`个。
+`spring-boot-practice` 是一个围绕springBoot相关的学习与实战项目,计划根据springBoot相关的框架进行实战练习，目前已完成 `20`个。
 
 ##开发环境
 
