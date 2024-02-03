@@ -51,6 +51,7 @@
         <module>practice-mq-kafka</module>
         <module>practice-websocket</module>
         <module>practice-websocket-socketio</module>
+        <module>practice-ureport2</module>
     </modules>
     <packaging>pom</packaging>
 
