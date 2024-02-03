@@ -52,6 +52,7 @@
         <module>practice-websocket</module>
         <module>practice-websocket-socketio</module>
         <module>practice-ureport2</module>
+        <module>practice-async</module>
     </modules>
     <packaging>pom</packaging>
 
