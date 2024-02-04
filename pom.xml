@@ -54,6 +54,7 @@
         <module>practice-ureport2</module>
         <module>practice-async</module>
         <module>practice-war</module>
+        <module>practice-elasticsearch</module>
     </modules>
     <packaging>pom</packaging>
 
