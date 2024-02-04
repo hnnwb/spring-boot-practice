@@ -55,6 +55,7 @@
         <module>practice-async</module>
         <module>practice-war</module>
         <module>practice-elasticsearch</module>
+        <module>practice-dubbo</module>
     </modules>
     <packaging>pom</packaging>
 
