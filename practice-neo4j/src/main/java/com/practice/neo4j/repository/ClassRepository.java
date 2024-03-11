@@ -1,5 +1,6 @@
 package com.practice.neo4j.repository;
 
+import com.practice.neo4j.model.Class;
 import org.springframework.data.neo4j.repository.Neo4jRepository;
 
 import java.util.Optional;
