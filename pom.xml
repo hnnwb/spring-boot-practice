@@ -58,6 +58,7 @@
         <module>practice-dubbo</module>
         <module>practice-mongodb</module>
         <module>practice-neo4j</module>
+        <module>practice-docker</module>
     </modules>
     <packaging>pom</packaging>
 
