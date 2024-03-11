@@ -59,6 +59,7 @@
         <module>practice-mongodb</module>
         <module>practice-neo4j</module>
         <module>practice-docker</module>
+        <module>practice-multi-datasource-jpa</module>
     </modules>
     <packaging>pom</packaging>
 
