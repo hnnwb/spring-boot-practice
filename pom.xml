@@ -56,6 +56,7 @@
         <module>practice-war</module>
         <module>practice-elasticsearch</module>
         <module>practice-dubbo</module>
+        <module>practice-mongodb</module>
     </modules>
     <packaging>pom</packaging>
 
