@@ -57,6 +57,7 @@
         <module>practice-elasticsearch</module>
         <module>practice-dubbo</module>
         <module>practice-mongodb</module>
+        <module>practice-neo4j</module>
     </modules>
     <packaging>pom</packaging>
 
