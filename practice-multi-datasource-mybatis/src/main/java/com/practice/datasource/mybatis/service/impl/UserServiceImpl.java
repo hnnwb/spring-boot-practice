@@ -7,6 +7,9 @@ import com.practice.datasource.mybatis.model.User;
 import com.practice.datasource.mybatis.service.UserService;
 import org.springframework.stereotype.Service;
 
+/**
+ * @author wb
+ */
 @Service
 @DS("slave")
 public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements UserService {
