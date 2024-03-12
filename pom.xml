@@ -60,6 +60,7 @@
         <module>practice-neo4j</module>
         <module>practice-docker</module>
         <module>practice-multi-datasource-jpa</module>
+        <module>practice-multi-datasource-mybatis</module>
     </modules>
     <packaging>pom</packaging>
 
