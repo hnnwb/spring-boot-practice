@@ -62,6 +62,7 @@
         <module>practice-multi-datasource-jpa</module>
         <module>practice-multi-datasource-mybatis</module>
         <module>practice-sharding-jdbc</module>
+        <module>practice-codegen</module>
     </modules>
     <packaging>pom</packaging>
 
