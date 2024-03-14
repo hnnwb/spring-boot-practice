@@ -63,6 +63,7 @@
         <module>practice-multi-datasource-mybatis</module>
         <module>practice-sharding-jdbc</module>
         <module>practice-codegen</module>
+        <module>practice-graylog</module>
     </modules>
     <packaging>pom</packaging>
 
