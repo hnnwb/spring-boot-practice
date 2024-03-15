@@ -64,6 +64,7 @@
         <module>practice-sharding-jdbc</module>
         <module>practice-codegen</module>
         <module>practice-graylog</module>
+        <module>practice-ldap</module>
     </modules>
     <packaging>pom</packaging>
 
