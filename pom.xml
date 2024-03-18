@@ -65,6 +65,7 @@
         <module>practice-codegen</module>
         <module>practice-graylog</module>
         <module>practice-ldap</module>
+        <module>practice-dynamic-datasource</module>
     </modules>
     <packaging>pom</packaging>
 
