@@ -66,6 +66,7 @@
         <module>practice-graylog</module>
         <module>practice-ldap</module>
         <module>practice-dynamic-datasource</module>
+        <module>practice-ratelimit-guava</module>
     </modules>
     <packaging>pom</packaging>
 
